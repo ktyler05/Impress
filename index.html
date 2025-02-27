@@ -7,24 +7,28 @@
 </head>
 <body>
   <div id="impress">
-    <!-- Slide 1: Hello -->
+ 
     <div id="step1" class="step" data-x="0" data-y="0" data-scale="1">
       <h1 class="animated-text">Hello</h1>
     </div>
-    <!-- Slide 2: World! -->
+
     <div id="step2" class="step" data-x="1200" data-y="0" data-scale="1">
       <h1 class="animated-text">World!</h1>
     </div>
-    <!-- Slide 3: Impress.js -->
+    
     <div id="step3" class="step" data-x="2400" data-y="0" data-rotate="90" data-scale="1">
       <h1 class="animated-text">are we using Impress.js correct?</h1>
     </div>
+    
+    <div id="step4" class="step" data-x="-2000" data-y="-3" data-rotate="270" data-scale="1">
+      <img id="cool" class="img" src="Images/cool.png" alt="Cool Image">
+    </div>
   </div>
 
-  <!-- Include impress.js from a CDN -->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.js"></script>
   <script>
-    // Initialize the presentation
+
     impress().init();
   </script>
 </body>
